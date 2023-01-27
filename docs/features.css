@@ -1,0 +1,56 @@
+
+.desc{
+    margin-top: 10%;
+    padding:3%;
+}
+h2{
+    color:white;
+}
+.design{
+    background: linear-gradient(180deg, rgba(215, 98, 67, 0.546) 0%, rgba(96, 66, 156, 0.7) 100%);
+    border: 1px solid #000000;
+    backdrop-filter: blur(2px);
+    border-radius: 60px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 4%;
+    max-width: 80%;
+}
+.design:hover{
+    max-width: 90%;
+}
+.design img{
+    margin-top: 10%;
+    width: 70%;
+    margin: 15% 0;
+    
+}
+.design p{
+    width: 70%;
+    margin: 0 auto 10%;
+}
+.col-bg{
+ background-color:  #000235;
+ margin-bottom: 10%;
+}
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    margin-top: 0;
+    padding:3% 15% 9%;
+}
+@media (max-width: 1028px){
+    body{
+        text-align: center;
+    }
+}
+
+/*  blog */
+.blog{
+    background-color: white;
+}
+.blog p{
+    color: #000000;
+}
