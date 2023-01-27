@@ -1,0 +1,28 @@
+HOME --> index.html
+
+Folder:
+Images -- home page Images
+css -- css files
+    styles.css --> home page styling
+    feature.css --> docs.html, schemes.html, exams.html styling
+
+FEATURES
+
+1. Government documents --> docs.html
+    folders -- docs    --> for html pages (license.html, etc)
+            -- docs/docs-Images     --> for images
+
+2. Beneficiary Schemes --> schemes.html
+    folders -- scehmes    --> for html pages
+            -- schemes/schemes-images     --> for images
+
+3. Competitive exams --> exams.html
+    folders -- exams    --> for html pages
+            -- exams/exams-images     --> for images
+
+
+
+
+FONTS USED:
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
