@@ -137,7 +137,8 @@ a{
 	color: white;
 }
 .card-body p{
-	text-align: left;
+	color: black;
+	text-align: justify;
 }
 .vision-column{
 	padding: 3% 2%;
@@ -205,13 +206,19 @@ a{
 		padding-top: 10%;
 	}
 	.grad1{
-		top: 400px;
-		height: 150%;
+		top: 300px;
+		height: 100%;
+		opacity: 0.7;
 	}
 	.grad2{
-		top:700px;
-		height: 150%;
+		top:1100px;
+		height: 100%;
 	}
+
+	.grad1, .grad2 {
+		opacity: 0.7;
+	}
+
 	.container-fluid{
 		margin-top: 20%;
 		/* padding:3% 15% 9%; */
@@ -219,4 +226,18 @@ a{
 	.logo-img{
 		width: 15%;
 	}
+}
+
+.card-header {
+	background-color: lightblue;
+}
+
+.card-body {
+	background-color: lavender;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+a:hover {
+	text-shadow: 0 0 30px lavender, 2px 2px 25px lavender, 3px 3px 20px lavender;
 }
